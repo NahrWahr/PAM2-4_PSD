@@ -71,7 +71,7 @@ def _(
     # Parameters
     Rb = baud_slider.value * 1e9
     fs = Rb * 16  # 16x Oversampling
-    num_symbols = 10**4
+    num_symbols = 10**3
 
     # 1. Generate Ideal Symbols & Square Waves
     # PAM2
